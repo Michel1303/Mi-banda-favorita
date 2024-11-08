@@ -1,0 +1,67 @@
+/* RESETEAR ESTILOS Y MARGENES */
+*{
+margin : 0;
+padding : 0;
+box-sizing: border-box; /*Hace que el alto y ancho de un elemtno incluya también sus bordes y el padding */
+font-family: cursive;
+}
+
+body {
+    background-color: rgb(255, 0, 0); 
+    height: 200vh;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contenedor {
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta {
+    background-color:rgb(0, 0, 0);
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.Perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.Enlaces a{
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(247, 7, 7);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.Enlaces a:hover{
+    background-color: rgba(203, 38, 38, 0.718);
+}
+h1, p{
+    color: rgb(255, 255, 255);
+}
+
+.Redes a{
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 30px;
+    color: rgb(89, 0, 255);
+    text-decoration: none;
+    transition: transform 0.2s;
+
+}
+
+.Redes a:hover{
+    transform: scale(1.2);
+
+}
